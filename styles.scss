@@ -6,9 +6,28 @@ header {
     h1 {
         font-weight: 700;
         font-size: 100px;
+        text-align: center;
+        margin: 25px;
     }
 }
 
-h2 {
-    font-weight: 400;
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+
+    h2 {
+        font-weight: 400;
+        display: block;
+        width: 300px;
+        text-align: center;
+        font-size: 35px;
+        margin: 25px;
+    }
+}
+
+.game {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
 }
